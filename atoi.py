@@ -5,7 +5,7 @@ __author__ = 'Rio'
 def atoi(string):
     ''' atoi
     '''
-    if not string: return string
+    if not string: return 0
 
     INT_MAX, INT_MIN = 2147483647, -2147483648
 
