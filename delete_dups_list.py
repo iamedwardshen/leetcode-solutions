@@ -16,13 +16,14 @@ class Solution:
                 if current.next.val in content:
                     current.next = current.next.next
                 else:
+                    content[current.next.val] = True
                     current = current.next
             return head
 
 if __name__ == '__main__':
-    a = ListNode(2)
+    a = ListNode(1)
     a.next = ListNode(2)
-    a.next.next = ListNode(2)
+    a.next.next = ListNode(3)
 
     temp = a
     while temp:

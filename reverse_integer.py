@@ -10,11 +10,9 @@ def reverse_integer(x):
     MAX_INTEGER = 9223372036854775807
     MIN_INTEGER = -MAX_INTEGER
 
-    flag = False
-    if x < 0:
-        flag = True
-        x = abs(x)
+    flag = False if x > 0 else True
 
+    x = abs(x)
     result = 0
     while x:
         result = result*10 + x%10
