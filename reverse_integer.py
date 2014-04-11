@@ -6,7 +6,6 @@ def reverse_integer(x):
     ''' Reverse digits of an integer
     '''
 
-    # Leetcode doesn't support 'import' statement, define two constants locally
     MAX_INTEGER = 9223372036854775807
     MIN_INTEGER = -MAX_INTEGER
 
