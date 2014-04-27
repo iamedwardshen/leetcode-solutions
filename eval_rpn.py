@@ -3,23 +3,6 @@
 __author__ = 'Rio'
 
 def eval_rpn(tokens):
-    OPS = {
-        '+': lambda x, y: x+y,
-        '-': lambda x, y: y-x,
-        '*': lambda x, y: x*y,
-        '/': lambda x, y: y/x
-        }
-
-    stack = []
-    for token in tokens:
-        if token not in OPS:
-            stack.append(int(token))
-        else:
-            stack.append(int(OPS[token](stack.pop(), stack.pop())))
-
-        return stack.pop(0
-
-def eval_rpn(tokens):
     '''
     Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 

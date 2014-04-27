@@ -3,8 +3,11 @@
 __author__ = 'Rio'
 
 def is_balanced(root):
-    return False if check_height(root) == -1 else True
-
+    result = check_height(root)
+    if result == -1:
+        return False
+    return True
+    
 def check_height(root):
     if not root:
         return 0
