@@ -10,28 +10,37 @@ class Node:
 class Solution():
     def mergeTwoLists(self, l1, l2):
         """
-        Return a merged linked list.
+        Return a merged linked list in increasing order.
 
-        Iterate through two lists while comparing them.
-        We take care of special cases such as different lengths.
+        Approach
+        Use a temporary dummy node as the start of the result list. The next pointer always
+        points to the last node in the result list, so appending new node is easy.
+        The loop proceeds, removing one node from either l1 or l2, and adding it to the tail.
+        When we are done, the result is in dummy.next
+
+        Analysis:
+        hTime Complexity: O(N), where N means the number of nodes in the list.
+
         """
-        head = Node(0)
-        current = head
+        dummy = Node(0)
+        tail = dummy
+
         while l1 and l2:
             if l1.val <= l2.val:
-                current.next = l1
+                tail.next = l1
                 l1 = l1.next
             else:
-                current.next = l2
+                tail.next = l2
                 l2 = l2.next
-            current = current.next
+            tail = tail.next
+
 
         if l1:
-            current.next = l1
+            tail.next = l1
         if l2:
-            current.next = l2
-
-        return head.next
+            tail.next = l2
+        
+        return dummy.next
 
 if __name__ == '__main__':
     l1 = Node(1)

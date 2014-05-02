@@ -11,25 +11,41 @@ class ListNode:
 class Solution:
     def removeNthFromEnd(self, head, n):
         """
-        Remove nth from the end node from the linked list.
+        Removes the Nth node from the end of the list and returns its head.
 
-        We split the whole list into two part with length K and N.
-        Our target is to remove the Nth element from the head.
-        To do this, we use fast runner approach. Iterate N element using
-        fast pointer, so there're K elements rest.
-        Then, start to run slow pointer from head while running fast to
-        attach the end.
+        We use a temporary dummy node as the start of the result list. So we could avoid painful
+        removing operation.
         """
-        fast, slow = head, head
+        if not head:
+            return None
 
-        while n != 0:
-            if fast:
-                fast = fast.next
-            else: # n is greater than the length of list.
-                return
+        dummy = ListNode(0)
+        previous = dummy
 
-        while fast:
-            slow = slow.next
-            fast = fast.next
+        while n:
+            if not head:
+                return None
+            head = head.next
+            n -= 1
 
-        return slow
+        while head:
+            head = head.next
+            previous = previous.next
+
+        previous.next = previous.next.next
+
+        return dummy.next
+
+        
+if __name__ == '__main__':
+    head = ListNode(1)
+    second = ListNode(2)
+    third = ListNode(3)
+    head.next = second
+    #second.next = third
+
+    solution = Solution()
+    solution.removeNthFromEnd(head, 1)
+    while head:
+        print "%d" % head.val
+        head = head.next
