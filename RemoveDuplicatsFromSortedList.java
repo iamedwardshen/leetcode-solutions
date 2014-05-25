@@ -9,6 +9,12 @@ class ListNode {
 }
 
 public class RemoveDuplicatedSortedList {
+    /**
+     * Solution: Iterates down the linked list and
+     * compare the current node with next node
+     * Time Complexity: O(N), where N means the elements in the list.
+     * Space Complexity: O(1), no additional space is required.
+     */
     public static ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {
             return head;
