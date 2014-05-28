@@ -5,27 +5,35 @@ __author__ = 'Rio'
 
 def valid(s):
     """
-    Solution: If a single element belongs to left parentheses,
+    Solution:
+    If a single element belongs to left parentheses,
     push it onto the stack, otherwise compare it with the top
-    element in the stack. Finally, the stack should be empty.
+    element in the stack -- this is because the right parentheses should
+    be paired with the most recent left pair.
+    Finally, the stack should be empty.
+
+    Analysis:
+    Time Complexity - O(N), where N means the elements in the string.
+    Space Complexity - O(1), no additional spaces is needed.
     """
-    if s is None:  # empty string is valid.
+    if s is None:  # empty string is valid parentheses.
         return True
 
+    left = set('([{')
     stack = []
-    for ele in s:
-        if ele in '([{':
-            stack.append(ele)
+    for element in s:
+        if element in left:  # in operation of a set, holds a constant time
+            stack.append(element)
         else:
-            if stack is not None and check_valid(ele, stack[-1]):
+            if len(stack) != 0 and is_valid(stack[-1], element):
                 stack.pop()
             else:
                 return False
 
-    return stack is None
+    return not stack
 
 
-def check_valid(c1, c2):
-    return (c1 == '(' and c2 == ')'
-            or c1 == '[' and c2 == ']'
-            or c1 == '{' and c2 == '}')
+def is_valid(left, right):
+    return (left == '(' and right == ')'
+            or left == '[' and right == ']'
+            or left == '{' and right == '}')
