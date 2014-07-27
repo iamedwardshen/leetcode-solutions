@@ -23,7 +23,6 @@ public class AddTwoNumbers {
             l1 = l1 == null ? null : l1.next;
             l2 = l2 == null ? null : l2.next;
         }
-
         if (carry > 0) current.next = new ListNode(carry);
 
         return dummy.next;

@@ -14,4 +14,5 @@ Arrays
 + [Four Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/FourSum.java)
 
 Lists
-+ [Add Two Numbers]
++ [Add Two Numbers](https://github.com/rioshen/leetcode-solutions/blob/master/java/AddTwoNumbers.java)
++
