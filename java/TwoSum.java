@@ -14,6 +14,7 @@ public class TwoSum {
             } else {
                 result[0] = map.get(numbers[i]) + 1;
                 result[1] = i + 1;
+                break;
             }
         }
 
