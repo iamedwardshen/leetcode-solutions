@@ -1,25 +1,21 @@
 import java.util.*;
 
 public class ThreeSum {
-    public static List<List<Integer>> threeSum(int[] num) {
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
-        if (num == null || num.length < 3) {
-            return result;
-        }
+    public List<List<Integer>> threeSum(int[] num) {
+        List<List<Integer>> res = new ArrayList<>();
+        if (num == null || num.length < 3) return res;
 
         Arrays.sort(num);
-        Set<List<Integer>> set = new HashSet<List<Integer>>(); // skip duplicates.
+        Set<List<Integer>> set = new HashSet<>();
         for (int i = 0; i < num.length - 2; i++) {
             int low = i + 1;
             int high = num.length - 1;
             int target = -num[i];
             while (low < high) {
                 if (num[low] + num[high] == target) {
-                    List<Integer> solution = new ArrayList<Integer>();
-                    solution.add(num[i]);
-                    solution.add(num[low]);
-                    solution.add(num[high]);
-                    if (set.add(solution)) result.add(solution);
+                    List<Integer> sol = new ArrayList<>();
+                    sol.addAll(Arrays.asList(num[i], num[low], num[high]));
+                    if (set.add(sol)) res.add(sol);
                     low++;
                     high--;
                 } else if (num[low] + num[high] < target) {
@@ -30,6 +26,6 @@ public class ThreeSum {
             }
         }
 
-        return result;
+        return res;
     }
 }

@@ -3,9 +3,7 @@ import java.util.*;
 public class TwoSum {
     public int[] twoSum(int[] numbers, int target) {
         int[] result = new int[2];
-        if (numbers == null || numbers.length <= 1) {
-            return result;
-        }
+        if (numbers == null || numbers.length < 2) return result;
 
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         for (int i = 0; i < numbers.length; i++) {
