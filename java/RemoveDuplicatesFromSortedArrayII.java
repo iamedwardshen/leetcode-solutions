@@ -1,14 +1,12 @@
 public class public class RemoveDuplicatesFromSortedArrayII {
     public int removeDuplicates(int[] A) {
-        if (A == null || A.length <= 2) {
-            return A.length;
-        }
+        if (A == null) return 0;
+        if (A.length <= 2) return A.length;
 
-        int index = 2;
-        for (int i = 2; i < A.length; i++) {
-            if (A[i] != A[index - 2]) {
-                A[index++] = A[i];
-            }
+        int occur = 3 - 1;
+        int index = occur;
+        for (int i = occur; i < A.length; i++) {
+            if (A[i] != A[index - occur]) A[index++] = A[i];
         }
 
         return index;
