@@ -6,5 +6,5 @@ Personal solutions of [LeetCode online judge](http://oj.leetcode.com/problems/)
 
 #### 1. Arrays
 + [Remove Duplicates from Sorted Array](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArray.java)
-+ [Remove Duplicates from Sorted Array II](hhttps://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArrayII.java)
-+
++ [Remove Duplicates from Sorted Array II](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArrayII.java)
++ dsfsdfds
