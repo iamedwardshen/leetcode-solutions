@@ -15,4 +15,4 @@ Arrays
 
 Lists
 + [Add Two Numbers](https://github.com/rioshen/leetcode-solutions/blob/master/java/AddTwoNumbers.java)
-+
++ [Partition Lists](https://github.com/rioshen/leetcode-solutions/blob/master/java/PartitionLists.java)
