@@ -14,6 +14,12 @@ Arrays
 - [x] 5. [Two Sum](https://github.com/rioshen/leetcode-solutions/blob/52ee71c93cae715745c7c7adaa377d757a8782b5/java/TwoSum.java)
 - [x] 6. [Three Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/ThreeSum.java)
 - [x] 7. [Four Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/FourSum.java)
+- [ ] 8. [Search in Rotated Sorted ArrayII]
+- [ ] 9. [Median of Two Sorted Arrays]
+- [x] 10. [Longest Consecutive Sequence](https://github.com/rioshen/leetcode-solutions/blob/master/java/LongestConsecutiveSequence.java)
+- [ ] 11. [Three Sum Closest]
+- [ ] 12. [Next Permutation]
+- [ ] 13. []
 
 Lists
 
