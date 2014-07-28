@@ -7,18 +7,18 @@ Tips
 
 Arrays
 
-1. [Remove Duplicates from Sorted Array](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArray.java)
-2. [Remove Duplicates from Sorted Array II](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArrayII.java)
-3. [Remove Element](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveElement.java)
-4. [Search in Rotated Sorted Array](https://github.com/rioshen/leetcode-solutions/blob/master/java/SearchinRotatedSortedArray.java)
-5. [Two Sum](https://github.com/rioshen/leetcode-solutions/blob/52ee71c93cae715745c7c7adaa377d757a8782b5/java/TwoSum.java)
-6. [Three Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/ThreeSum.java)
-7. [Four Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/FourSum.java)
+- [x] 1. [Remove Duplicates from Sorted Array](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArray.java)
+- [x] 2. [Remove Duplicates from Sorted Array II](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedArrayII.java)
+- [x] 3. [Remove Element](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveElement.java)
+- [x] 4. [Search in Rotated Sorted Array](https://github.com/rioshen/leetcode-solutions/blob/master/java/SearchinRotatedSortedArray.java)
+- [x] 5. [Two Sum](https://github.com/rioshen/leetcode-solutions/blob/52ee71c93cae715745c7c7adaa377d757a8782b5/java/TwoSum.java)
+- [x] 6. [Three Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/ThreeSum.java)
+- [x] 7. [Four Sum](https://github.com/rioshen/leetcode-solutions/blob/master/java/FourSum.java)
 
 Lists
 
-1. [Add Two Numbers](https://github.com/rioshen/leetcode-solutions/blob/master/java/AddTwoNumbers.java)
-2. [Partition Lists](https://github.com/rioshen/leetcode-solutions/blob/master/java/PartitionLists.java)
-3. [Remove Duplicates From Sorted List](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedList.java)
-4. [Linked List Cycle](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycle.java)
-5. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
+- [x] 1. [Add Two Numbers](https://github.com/rioshen/leetcode-solutions/blob/master/java/AddTwoNumbers.java)
+- [x] 2. [Partition Lists](https://github.com/rioshen/leetcode-solutions/blob/master/java/PartitionLists.java)
+- [x] 3. [Remove Duplicates From Sorted List](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedList.java)
+- [x] 4. [Linked List Cycle](https://github.com/rioshen/leetcode-solutions/- [] blob/master/java/LinkedListCycle.java)
+- [x] 5. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
