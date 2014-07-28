@@ -21,3 +21,4 @@ Lists
 2. [Partition Lists](https://github.com/rioshen/leetcode-solutions/blob/master/java/PartitionLists.java)
 3. [Remove Duplicates From Sorted List](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedList.java)
 4. [Linked List Cycle](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycle.java)
+5. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
