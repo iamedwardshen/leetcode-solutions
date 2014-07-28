@@ -25,4 +25,22 @@ Lists
 - [x] 6. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
 - [ ] 7. [Rotate List]
 - [ ] 8. [Remove Nth Node From End of List]
-- [ ]
+- [x] 9. [Reverse Linked List II](https://github.com/rioshen/leetcode-solutions/blob/master/java/ReverseLinkedListII.java)
+- [ ] 10. [Swap Nodes in Paris]
+- [ ] 11. [Reverse Nodes in k-group]
+- [ ] 12. [Copy List with Random Pointer]
+- [ ] 13. [Reorder List]
+- [ ] 14. [LRU Cache]
+
+Trees
+
+- [x] 1. [Binary Tree Preorder Traversal](https://github.com/rioshen/leetcode-solutions/blob/master/java/BinaryTreePreorderTraversal.java)
+- [x] 2. [Binary Tree Inorder Traversal](https://github.com/rioshen/leetcode-solutions/blob/master/java/BinaryTreeLevelOrderTraversal.java)
+- [x] 3. [Binary Tree Inorder Traversal II](https://github.com/rioshen/leetcode-solutions/blob/master/java/BinaryTreeLevelOrderTraversalII.java)
+- [x] 4. [Binary Tree Postorder Traversal](https://github.com/rioshen/leetcode-solutions/blob/master/java/BinaryTreePostorderTraversal.java)
+- [x] 5. [Binary Tree Zigzag Level Order Traversal](https://github.com/rioshen/leetcode-solutions/blob/master/java/BinaryTreeZigzagLevelOrderTraversal.java)
+- [ ] 6. [Recover Binary Search Tree]
+- [x] 7. [Same Tree](https://github.com/rioshen/leetcode-solutions/blob/master/java/SameTree.java)
+- [x] 8. [Balanced Tree](https://github.com/rioshen/leetcode-solutions/blob/master/java/BalancedBinaryTree.java)
+- [x] 9. [Flatten Binary Tree to Linked List](https://github.com/rioshen/leetcode-solutions/blob/master/java/FlattenBinaryTreetoLinkedList.java)
+- [x] 10. [Symmetric Tree](https://github.com/rioshen/leetcode-solutions/blob/master/java/SymmetricTree.java)
