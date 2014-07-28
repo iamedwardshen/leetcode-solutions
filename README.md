@@ -24,4 +24,5 @@ Lists
 - [x] 5. [Linked List Cycle](https://github.com/rioshen/leetcode-solutions/- [] blob/master/java/LinkedListCycle.java)
 - [x] 6. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
 - [ ] 7. [Rotate List]
-- [ ] 8. []
+- [ ] 8. [Remove Nth Node From End of List]
+- [ ]
