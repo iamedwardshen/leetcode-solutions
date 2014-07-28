@@ -20,5 +20,8 @@ Lists
 - [x] 1. [Add Two Numbers](https://github.com/rioshen/leetcode-solutions/blob/master/java/AddTwoNumbers.java)
 - [x] 2. [Partition Lists](https://github.com/rioshen/leetcode-solutions/blob/master/java/PartitionLists.java)
 - [x] 3. [Remove Duplicates From Sorted List](https://github.com/rioshen/leetcode-solutions/blob/master/java/RemoveDuplicatesFromSortedList.java)
-- [x] 4. [Linked List Cycle](https://github.com/rioshen/leetcode-solutions/- [] blob/master/java/LinkedListCycle.java)
-- [x] 5. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
+- [ ] 4. [Remove Duplicates From Solrted List II]
+- [x] 5. [Linked List Cycle](https://github.com/rioshen/leetcode-solutions/- [] blob/master/java/LinkedListCycle.java)
+- [x] 6. [Linked List Cycle II](https://github.com/rioshen/leetcode-solutions/blob/master/java/LinkedListCycleII.java)
+- [ ] 7. [Rotate List]
+- [ ] 8. []
