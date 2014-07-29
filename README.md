@@ -20,7 +20,7 @@ Arrays
 - [ ] 11. [Three Sum Closest]
 - [ ] 12. [Next Permutation]
 - [x] 13. [Valid Soduku](https://github.com/rioshen/leetcode-solutions/blob/master/java/ValidSoduku.java)
-- [ ] 14. [Climbing Stairs](https://github.com/rioshen/leetcode-solutions/blob/master/java/ClimbingStairs.java)
+- [x] 14. [Climbing Stairs](https://github.com/rioshen/leetcode-solutions/blob/master/java/ClimbingStairs.java)
 
 Lists
 
