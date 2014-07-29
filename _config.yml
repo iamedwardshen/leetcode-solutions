@@ -1,33 +1,17 @@
-name: White Paper
-markdown: redcarpet
+markdown: rdiscount
 pygments: true
-url: http://vinitkumar.me/white-paper
-paginate: 8
-description:     LeetCode Solutions in Java and Python
-intro: LeetCode Solutions in Java and Python
-logo:             logo.png
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
+title : LeetCode Solutions
+production_url : http://carlosbecker.com
+description: "LeetCode Solutions in Java and Python."
 disqus_shortname:
-# url: http://gotchacode.com
-#Comment out url when working locally to resolve base urls correctly
-#url:
-
-# Owner/author information
-owner:
-  name:           Rio Shen
-  avatar:         <avatar-image-link>
-  email:          <your-email-address>
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  github:
-  stackexchange:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Links to include in top navigation
-# For external links add external: true
+analytics:
+gauges:
+author :
+  name : Rio Shen
+  github : rioshen
+  twitter :
+  email:

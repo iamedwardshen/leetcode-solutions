@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Posts</title>
+  <title>UP v2</title>
 
   <meta name="author" content="Rio Shen" />
   <meta name="description" content="LeetCode Solutions in Java and Python." />
@@ -70,28 +70,89 @@
 
 
   <div class="container">
-    <section class="content">
-  <h1 class="thin">Posts</h1>
-  <ul class="listing">
-    
-    <li>
-      <span>July 28, 2014</span> <a href="/posts/arrays">Arrays</a>
-    </li>
-    
-    <li>
-      <span>October 14, 2013</span> <a href="/posts/up-2">UP v2</a>
-    </li>
-    
-    <li>
-      <span>April  4, 2013</span> <a href="/posts/new-up-version">New UP Version</a>
-    </li>
-    
-    <li>
-      <span>December 13, 2012</span> <a href="/posts/up">Up</a>
-    </li>
-    
-  </ul>
-</section>
+    <article>
+  <h1>
+    <a href="/posts/up-2">UP v2</a>
+  </h1>
+
+  <section class="byline">
+    October 14, 2013
+  </section>
+
+  <p>So, this is the all-new UP version. It is more based
+on my own <a href="http://carlosbecker.com">blog</a>, which is a some kind of
+branch of this theme.</p>
+
+<p>The biggest changes here are:</p>
+
+<ul>
+<li>Assets are now managed by <a href="http://bower.io">bower</a>;</li>
+<li>Build are now made by <a href="http://gruntjs.com/">grunt</a>;</li>
+<li><code>Procfile.dev</code> to use with foreman to watch
+changes everywhere (assets, pages, posts);</li>
+<li>Removed the hardcoded Jekyll from Gemfile and
+replaced it with the github pages Gem;</li>
+<li>Bumped all assets versions;</li>
+<li>Some semantics fixed in HTML;</li>
+</ul>
+
+
+<h3>Usage</h3>
+
+<p>To get started, with Ruby, Bundler, Node.js and NPM
+previously in your <code>PATH</code>, run the init script:</p>
+
+<div class="highlight"><pre><code class="bash">./script/init.sh
+</code></pre></div>
+
+
+<p>This will install all needed dependencies and build
+the the assets for you (just run <code>grunt</code>).</p>
+
+<p>You can also start it up in watch mode with</p>
+
+<div class="highlight"><pre><code class="bash">foreman start -f Procfile.dev
+</code></pre></div>
+
+
+<h3>Update</h3>
+
+<p>To update, the easiest way is to backup your _posts folder and override
+everything else. If you don&rsquo;t want to do that, you will have to hack
+around the changes and do it by hand.</p>
+
+<p>If you have any issues or suggestions, ping me at the <a href="http://github.com/caarlos0/up">up project</a>.</p>
+
+  <div class="pull"></div>
+  <a  href="https://twitter.com/share" class="twitter-share-button"
+data-via="" data-lang="en" data-size="large">Tweet</a>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src="//platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,"script","twitter-wjs");
+</script>
+
+  <hr>
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = '';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</article>
 
   </div>
 
