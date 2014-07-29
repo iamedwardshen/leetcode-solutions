@@ -1,11 +1,11 @@
 markdown: rdiscount
 pygments: true
-permalink: /posts/:title
+permalink: /leetcode-solutions/posts/:title
 rdiscount:
   extensions: [smart]
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
 title : LeetCode Solutions
-production_url : http://carlosbecker.com
+production_url : http://rioshen.github.io/leetcode-solutions
 description: "LeetCode Solutions in Java and Python."
 disqus_shortname:
 analytics:
