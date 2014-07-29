@@ -19,7 +19,7 @@ Arrays
 - [x] 10. [Longest Consecutive Sequence](https://github.com/rioshen/leetcode-solutions/blob/master/java/LongestConsecutiveSequence.java)
 - [ ] 11. [Three Sum Closest]
 - [ ] 12. [Next Permutation]
-- [ ] 13. [Valid Soduku](https://github.com/rioshen/leetcode-solutions/blob/master/java/ValidSoduku.java)
+- [x] 13. [Valid Soduku](https://github.com/rioshen/leetcode-solutions/blob/master/java/ValidSoduku.java)
 
 Lists
 
