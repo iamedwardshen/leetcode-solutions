@@ -3,8 +3,8 @@ markdown: redcarpet
 pygments: true
 url: http://vinitkumar.me/white-paper
 paginate: 8
-description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
+description:     LeetCode Solutions in Java and Python
+intro: LeetCode Solutions in Java and Python
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com
@@ -13,7 +13,7 @@ disqus_shortname:
 
 # Owner/author information
 owner:
-  name:           <your-name-here>
+  name:           Rio Shen
   avatar:         <avatar-image-link>
   email:          <your-email-address>
   # Social networking links used in footer. Update and remove as you like.
