@@ -21,6 +21,16 @@ Arrays
 - [ ] 12. [Next Permutation]
 - [x] 13. [Valid Soduku](https://github.com/rioshen/leetcode-solutions/blob/master/java/ValidSoduku.java)
 - [x] 14. [Climbing Stairs](https://github.com/rioshen/leetcode-solutions/blob/master/java/ClimbingStairs.java)
+- [ ] 15. [Trapping Rain Water]
+- [ ] 16. [Rotate Image]
+- [ ] 17. [Plus One]
+- [ ] 18. [Gray Code]
+- [ ] 19. [Set Matrix Zeroes](https://github.com/rioshen/leetcode-solutions/blob/master/java/SetMatrixZeroes.java)
+- [ ] 20. [Gas Station]
+- [ ] 21. [Candy]
+- [ ] 22. [Single Number]
+- [ ] 23. [Single Number II]
+- [ ] 24. [Permutation Sequence]
 
 Lists
 

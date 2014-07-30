@@ -8,11 +8,12 @@ public class Anagrams {
     }
 
     public List<String> anagrams(String[] strs) {
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
         if (strs == null) {
             return result;
         }
-        Map<String, ArrayList<String> map = new HashMap<String, ArrayList<String>>()
+
+        Map<String, ArrayList<String> map = new HashMap<>()
         for (String str : strs) {
             String sorted = sorted(str);
             if (!map.containsKey(sorted)) {
