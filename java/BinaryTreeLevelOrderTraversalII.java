@@ -9,15 +9,15 @@
  */
 public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        List<List<Integer>> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
 
-        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            List<Integer> level = new ArrayList<Integer>();
+            List<Integer> level = new ArrayList<>();
 
             int size = queue.size(); // record current level size
             for (int i = 0; i < size; i++) {
